@@ -1,0 +1,13 @@
+.contact-list {
+  margin-top: 20px;
+}
+
+.contact-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-list li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}

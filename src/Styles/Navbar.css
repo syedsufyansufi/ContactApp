@@ -1,0 +1,50 @@
+/* Navbar Styles */
+.nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+}
+
+.active-link {
+  color: #ff4757; /* Active Link Color */
+  font-weight: bold;
+  border-bottom: 2px solid #ff4757;
+}
+
+/* AppBar Styling */
+.MuiAppBar-root {
+  background-color: #1976d2 !important; /* Custom AppBar Color */
+  padding: 10px;
+}
+
+/* Toolbar Styling */
+.MuiToolbar-root {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Icon Styling */
+.MuiSvgIcon-root {
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+/* Mobile Menu */
+.MuiDrawer-paper {
+  background-color: #f8f9fa;
+  color: #333;
+}
